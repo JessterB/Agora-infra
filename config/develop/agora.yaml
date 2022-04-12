@@ -6,7 +6,7 @@ parameters:
   AppEnv: 'develop'
   AppHealthcheckUrl: '/about'
   AutoScalingMaxSize: '2'
-  AutoScalingMinSize: '1'
+  AutoScalingMinSize: '2'
   EbHealthReportingSystem: 'enhanced'
   EbDeploymentPolicy: 'RollingWithAdditionalBatch'
   SnsBounceNotificationEndpoint: 'agora-develop-bounce-notifications@sagebase.org'
