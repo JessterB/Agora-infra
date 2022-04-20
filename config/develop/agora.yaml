@@ -5,7 +5,7 @@ parameters:
   AppDeployBucket: 'org-sagebionetworks-agora-deployment-agora-develop'
   AppEnv: 'develop'
   AppHealthcheckUrl: '/about'
-  AutoScalingMaxSize: '2'
+  AutoScalingMaxSize: '4'
   AutoScalingMinSize: '2'
   EbHealthReportingSystem: 'enhanced'
   EbDeploymentPolicy: 'RollingWithAdditionalBatch'
